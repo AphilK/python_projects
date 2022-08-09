@@ -2,7 +2,7 @@ from random import random
 
 x = int(random() * 10) #Numero aleatorio
 
-print("Vamos jogar um jogo, voce consegue adivinhar o numero que estou pensando ?\nDigite o numero que voce acha que estou pensando:")
+print("Adivinhe um numero entre 1 e 10")
 y = int(input())
 
 while y != x:
